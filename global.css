@@ -1,0 +1,127 @@
+body {
+  margin: 0px;
+  background-image: url('https://cdn.hipwallpaper.com/m/96/64/BkIKjA.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#logo { 
+  float: left;
+  display: inline-block;
+  height: 4.4em;
+}
+
+header {
+  background-color: #3467eb;
+  width: 100%;
+  height: 70px;
+  opacity: 85%; 
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  font-size: 20px;
+  justify-content: flex-end; 
+  margin: 0px;
+}
+
+li {
+  margin: 20px;
+  font-family: Arial;
+}
+
+#title {
+  margin-right: auto;
+}
+
+
+li a {
+ color: black;
+ text-decoration: none; 
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+	 text-align: center;
+	 margin-top: 100px;
+	 }
+	 
+	 
+	 
+h2 {
+	 text-align: center;
+	 }
+h3 {
+	text-align: center;
+}
+
+p{
+	margin: 50px;
+}
+<!-- code for the Contact form -->
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  opacity: .8;
+}
+
+<!-- jumping effect from nav to section of the page -->
+
+#aboutme,#resume,#contact{
+    height: 600px;
+    width: 300px;
+    background: green; 
+}
+
+<!-- background for the about me section -->
+
+.ocean {
+    position: absolute;
+    left: 50%;
+
+}
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  opacity: .7;
+  margin-right: 50px;
+  margin-left: 50px;
+}
